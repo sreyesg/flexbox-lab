@@ -29,7 +29,7 @@
     padding: 24px 72px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   
   h1,
@@ -60,6 +60,9 @@
   main {
     background-color: white;
     padding: 32px 72px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   
   nav button {
@@ -77,9 +80,13 @@
     background-color: gray;
     border-radius: 8px;
   }
-  
+  .card {
+    margin: 0 10px;
+  }
   .card-footer {
     font-size: 14px;
+    display: flex;
+    justify-content: space-between;
   }
   
   .card-footer * {
@@ -89,6 +96,8 @@
   #subnav {
     padding: 32px 72px 0;
     background-color: white;
+    display: flex;
+    justify-content: space-between;
   }
   
   #subnav button {
